@@ -1,0 +1,18 @@
+#!/bin/bash
+alias saiy="sudo apt-get install -y"
+alias gdb="/usr/bin/gdb_select.sh"
+alias vim="nvim"
+alias vi="nvim"
+alias py="python3"
+alias fd="find . -name"
+alias cat="bat"
+alias c="clear"
+alias sd="sudo docker"
+alias riscv-g++=riscv64-unknown-elf-g++
+alias riscv-ld=riscv64-unknown-elf-ld
+alias vif="nvim \$(fzf)"
+alias psf="ps -aux | fzf"
+alias killf="ps -aux | fzf | awk '{print \$2}' | xargs kill -9"
+alias ls="exa"
+alias cd="z"
+alias l='exa -l --git -h'

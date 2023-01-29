@@ -1,0 +1,17 @@
+#!/bin/bash
+export DATACONP=/home/squ/Desktop/train
+export FUZZIP=192.168.18.147
+export UNICORN_PATH=/home/squ/tools/unicorn-master/
+export GAIO_PATH=/home/squ/tools/glibc-all-in-one
+export PATH=/opt/riscv/bin:$PATH
+export XV6_PATH=/home/squ/proj/xv6-labs-2021
+export AFLPP_PATH=/home/squ/tools/AFLplusplus
+export TRAIN_OS=/home/squ/proj/OS-train-school/clock-interrupt
+export AFL_PATH=~/tools/AFL/
+export PATH=/home/squ/.local/bin:$PATH
+export HELIX_RUNTIME=/home/squ/tools/helix/runtime # need by helix
+
+
+# ------temp use-----------------
+export QEMU_BIN=/home/squ/prac/CVE-2020-14364-QEMU-USB/qemu-5.0.0/bin/debug/naive/x86_64-softmmu/
+export PATH=/home/squ/tools/clangd_15.0.6/bin:$PATH
