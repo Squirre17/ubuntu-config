@@ -107,7 +107,7 @@ source $ZSH/oh-my-zsh.sh
 source ~/.user-config/.aliasrc
 source ~/.user-config/.exportrc
 source ~/.user-config/.proxyrc
-[ -f ~/.fzfrc ] && source ~/.fzfrc
+source ~/.user-config/.fzfrc
 export PATH=$PATH:/home/squ/.local/bin/
 
 
@@ -124,7 +124,7 @@ bindkey -r "^L"
 
 # source ~/.fzfrc
 # [starship]
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
 # [zoxide]
  export EDITOR=nvim
 eval "$(zoxide init zsh)"
